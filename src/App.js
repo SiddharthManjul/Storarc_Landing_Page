@@ -54,7 +54,7 @@ export default function App() {
                   Storarc is a Private Computing Solution on AO, a system
                   designed to protect user data by keeping computations and data
                   processing isolated and secure in a trusted environment using
-                  advanced encryption techniques such as FHE, ZKP, etc.
+                  advanced encryption techniques such as FHE, ZKP.
                 </li>
                 <li className="mb-2">
                   Storarc is fully decentralized in nature as it uses Arweave
@@ -63,10 +63,12 @@ export default function App() {
                 </li>
                 <li>Benefits:</li>
                 <ol className="pl-5 list-decimal mb-2">
-                  <li>No Single Point of Failure User’s </li>
-                    <li>Control over Data Ownership </li>
-                    <li>Fully Trustable and Transparent System No Data Tampering </li>
-                    <li> Interoperability and no Vendor Lock-In and more </li>
+                  <li>No Single Point of Failure.</li>
+                  <li>User's Control over Data Ownership. </li>
+                  <li>
+                    Fully Trustable and Transparent System No Data Tampering.{" "}
+                  </li>
+                  <li> Interoperability and no Vendor Lock-In and more. </li>
                 </ol>
 
                 <li className="mb-2">
@@ -94,9 +96,7 @@ export default function App() {
                   After the launch of Arfleet, users now have both the options
                   to upload their data temporarily or permanently.
                 </li>
-                <li>
-                  Part of Arweave India Launchpad 2.0
-                </li>
+                <li>Part of Arweave India Launchpad 2.0</li>
               </ul>
             </div>
           </section>
@@ -104,7 +104,9 @@ export default function App() {
             <div className="container mx-auto flex flex-col md:flex-row items-center px-6">
               {/* Content Div */}
               <div className="flex-1 md:w-1/2 mb-8 md:mb-0 md:pr-8">
-                <h2 className="text-3xl font-ubuntu font-bold mb-4">Tech Stack</h2>
+                <h2 className="text-3xl font-ubuntu font-bold mb-4">
+                  Tech Stack
+                </h2>
                 <ul className="list-disc ml-4 text-lg font-grotesk">
                   <li>Arweave</li>
                   <li>AO Hyper Parallel Computer</li>
@@ -125,7 +127,9 @@ export default function App() {
             </div>
           </section>
           <section className="">
-            <h1 className="mx-auto text-center font-orbitron font-bold text-xl py-4 uppercase bg-gray-300">Coming Soon...</h1>
+            <h1 className="mx-auto text-center font-orbitron font-bold text-xl py-4 uppercase bg-gray-300">
+              Coming Soon...
+            </h1>
           </section>
         </>
       )}
